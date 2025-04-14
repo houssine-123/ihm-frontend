@@ -22,12 +22,18 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets/freebees/images",
+              "src/assets/freebees/css",
+              "src/assets/freebees/js"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/freebees/css/main.css"
+              
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/freebees/js/nav-bg.js"
+            ]
           },
           "configurations": {
             "production": {
