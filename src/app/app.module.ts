@@ -13,6 +13,9 @@ import { AjouteroffreComponent } from './ajouteroffre/ajouteroffre.component';
 import { ListoffreComponent } from './listoffre/listoffre.component';
 import { ProfilrecComponent } from './profilrec/profilrec.component';
 import { PostuleroffreComponent } from './postuleroffre/postuleroffre.component';
+import { LoginAdminComponent } from 'src/admin/login/loginAdmin.component';
+import { NavComponent } from './nav/nav.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import { PostuleroffreComponent } from './postuleroffre/postuleroffre.component'
     ListoffreComponent,
     ProfilrecComponent,
     PostuleroffreComponent,
+    LoginAdminComponent,
+    NavComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

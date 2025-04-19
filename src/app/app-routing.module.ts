@@ -9,6 +9,7 @@ import { SignupComponent } from './signup/signup.component';
 import { AjouteroffreComponent } from './ajouteroffre/ajouteroffre.component';
 import { ListoffreComponent } from './listoffre/listoffre.component';
 import { ProfilrecComponent } from './profilrec/profilrec.component'; // Import AuthGuard if needed
+import { LoginAdminComponent } from 'src/admin/login/loginAdmin.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'blog', component: BlogComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'admin/login', component: LoginAdminComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'ajouteroffre', component: AjouteroffreComponent },
   {path: 'listoffre', component: ListoffreComponent},
